@@ -1,0 +1,15 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "events": {
+      "restart": "npm run tsc"
+    },
+    "watch": [
+      "app/"
+    ],
+    "env": {
+      "DEBUG": true,
+      "VUE_DEV": true
+    },
+    "ext": "ts"
+  }

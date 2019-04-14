@@ -1,0 +1,19 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "semicolon": [true, "never"],
+        "ordered-imports": [true, { "import-sources-order": "any", "named-imports-order": "any" }],
+        "quotemark": [true, "single"],
+        "no-angle-bracket-type-assertion": false,
+        "max-line-length": false,
+        "arrow-parens": false,
+        "object-literal-key-quotes": [true, "consistent-as-needed"],
+        "no-string-literal": false,
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}
